@@ -47,7 +47,7 @@ npx stylelint "**/*.{css,scss}"
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/benshidanny11/metricsapp/issues).
+Feel free to check the [issues page](https://github.com/benshidanny11/metrics-app/issues).
 
 ## Show your support
 
