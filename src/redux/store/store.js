@@ -1,10 +1,10 @@
 import { combineReducers, createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 
-import leagues from '../redusers/leagues';
+import populationReducer from '../redusers/population';
 
 const reducers = combineReducers({
-  leagues,
+  data: populationReducer,
 });
 
 const store = createStore(
