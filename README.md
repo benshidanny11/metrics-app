@@ -56,6 +56,7 @@ Give a 👍 if you like this project!
 ## Acknowledgments
 
 - Microverse
+- [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio), the author of design.
 
 ## 📝 License
 

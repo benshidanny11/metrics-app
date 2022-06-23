@@ -8,9 +8,12 @@ import { fetchDetails } from '../../redux/actions/population';
 import DetailsNav from '../DeatailsHeader';
 import CountryItem from '../items/CountryItem';
 
-function Details() {
-  if (performance.navigation.type === 1) {
-    location.href = '/';
+function Details(props) {
+  const { performance } = props || window.performance;
+  if (performance) {
+    if (performance.navigation.type === 1) {
+      location.href = '/';
+    }
   }
   const { population, countries } = useSelector((state) => state.data);
   const myRef = useRef();
