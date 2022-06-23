@@ -33,6 +33,9 @@ npx eslint .
 npx stylelint "**/*.{css,scss}"
 ```
 
+## Live demo
+- Please visit my app [Here](https://worldpopulationmetrics.herokuapp.com/)
+
 ## Authors:
 
 ￼ **Daniel URIMUBENSHI**
