@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<div>
+  <div>
+    <nav>
+      <div
+        className="d-flex nav-container"
+      >
+         
+        <div>
+          <i
+            className="fa-solid fa-house"
+          />
+        </div>
+        <div>
+          <h1
+            className="nav-title"
+          >
+            World population
+          </h1>
+        </div>
+        <div
+          className="search-container"
+          onClick={[Function]}
+        >
+          <i
+            className="fa-solid fa-magnifying-glass"
+          />
+        </div>
+      </div>
+    </nav>
+    <div
+      className="img-container img-container-home"
+    >
+      <h3>
+        Overall population
+      </h3>
+      <p>
+         
+        Loading.....
+      </p>
+    </div>
+    <h1>
+      Please wait...
+    </h1>
+  </div>
+</div>
+`;

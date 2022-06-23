@@ -24,7 +24,7 @@ function NavBar() {
         <div className="d-flex nav-container">
           {' '}
           <div><i className="fa-solid fa-house" /></div>
-          <div><h1>World population</h1></div>
+          <div><h1 className="nav-title">World population</h1></div>
           <div className="search-container" onClick={switchViewsHandler}><i className="fa-solid fa-magnifying-glass" /></div>
 
         </div>

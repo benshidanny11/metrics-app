@@ -1,3 +1,4 @@
+/* eslint-disable react/require-default-props */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 import React, { useState } from 'react';
@@ -26,7 +27,7 @@ function DetailsNav({ country }) {
         <div className="d-flex nav-container-details">
           {' '}
           <NavLink to="/" className="nav-link"><i className="fa-solid fa-angle-left fa-2x" /></NavLink>
-          <div className="title-container"><h1>{country}</h1></div>
+          <div className="title-container"><h1 className="nav-title">{country}</h1></div>
         </div>
       )}
 
@@ -35,7 +36,7 @@ function DetailsNav({ country }) {
 }
 
 DetailsNav.propTypes = {
-  country: PropTypes.string.isRequired,
+  country: PropTypes.string,
 };
 
 export default DetailsNav;
